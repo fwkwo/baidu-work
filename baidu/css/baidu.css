@@ -1,0 +1,259 @@
+﻿*{
+	margin:0px;
+	padding:0px; 
+}
+body{
+	font:12px arial;
+	min-width:700px;
+}
+ul li{
+	list-style: none;
+}
+.clearfix:after{
+    clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+.wrapper{
+    position: relative;
+    height: 100%;
+    min-height: 600px;
+}
+/*header*/
+.header{
+	margin: 19px 0 5px 0;	
+}
+.header nav{
+	/*overflow: hidden;*/
+    float: right;
+}
+.header nav li{
+	float: left;
+	margin:0 10px; 
+}
+.header nav li a{
+    color: #333;
+    line-height: 24px;
+    font-size: 13px;
+}
+.header nav li a:hover{
+    color:#00c;
+}
+.header nav .bold{
+    font-weight: bold; 
+}
+.header .even-more{
+	background: #38f;
+    text-align: center;
+   /* overflow: hidden;*/
+    border-bottom: 1px solid #38f;
+    padding: 0px 10px;
+    position: relative;
+}
+.header .even-more a{
+	color: #fff;
+	text-decoration: none;
+    position: relative;
+    z-index: 22;
+}
+/*侧边栏*/
+.even-more:hover{
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+}
+.header .even-more:hover a{
+    color: #000;
+}
+.even-more:hover .ce{
+    display: block;
+}
+.ce{
+    width: 85px;
+    height: 700px;
+    background-color: #f9f9f9;
+    position: absolute;
+    right:-14%;
+    top: -25px;
+    z-index: 1;
+    display: none;
+}
+.ce dl{
+    margin-top: 80px;
+    padding: 0px 5px;
+}
+.ce dl dd{
+    margin-top: 15px;
+    border-bottom: #f0f0f0 1px solid;
+}
+.ce dl.clearfix dd a{
+    display: block;
+    color: #666;
+}
+.clearfix dd a:hover{
+    text-decoration: underline;
+}
+/*主体部分*/
+.main-content{
+	margin-top:30px;
+    width: 100%;
+}
+.main-content .logo{
+	width: 270px;
+    height: 129px;
+    margin:auto;
+    margin-bottom: 40px;
+}
+.main-content .logo img{
+	width: 100%;
+    border:0px;
+}
+.main-content .form{
+	width: 641px;
+    position: relative;
+    margin: auto;
+}
+.text-box{
+	position: relative;
+}
+.main-content .text-box .photo{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: url(../img/camera_new_679c15cc.png) no-repeat;
+    right: 1%;
+    top: -2px;
+    background-size: 100%;
+    cursor: pointer;
+    top:30% \9;
+    _top:0% ;
+    +top:30%;
+    right:2% \9;
+}
+:root .main-content .text-box .photo{
+    top:0%
+}
+.main-content .text-box span:hover{
+	background-position: 0px -20px;
+}
+.main-content .text-input{
+    width: 539px;
+    font:16px arial;
+    line-height: 22px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    border: 1px solid #b6b6b6;
+    height: 34px;
+    text-indent: 5px;
+}
+.main-content .text-input:focus{
+    border:1px solid #4791ff;
+}
+.main-content .submit-btn{
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border: 1px solid #2d78f4;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 0px \9;
+    top:1px \9;
+    top:0px \0;
+}
+.main-content .submit-btn:hover{
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+    box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 0px \9;
+    border-bottom:none \9; position: absolute;
+    _width: 100px;
+    _height: 37px;
+   _top:0px;
+   _border:none; 
+}
+/*底部*/
+.footer{
+    height: 100px;
+    position: absolute;
+    bottom: 23px;
+    _bottom:-200px;
+    text-align: left;
+    margin: auto;
+    z-index: 0;
+    overflow: hidden;
+    left: 50%;
+    width: 614px;
+    margin-left: -307px;
+    _margin-left: -307px;
+    +margin-left: -307px;
+    margin-left: -307px \9;
+}
+.footer_l,.footer_l dt,.footer_l dd,.footer_R{
+	float: left;
+}
+.footer_l .footer_l_f{
+	margin-right:10px;
+}
+.footer_l dl{
+	width: 115px;
+	float: left;
+}
+.footer_l dt{
+	width: 60px;
+	height: 60px
+}
+.footer_l dd{
+    margin: 7px 0 7px 3px;
+    color: #666;
+}
+.footer_l .phone_bd{
+	font-weight:bold;
+}
+.floot-nav {
+	color:#999;
+}
+.floot-nav li{
+    float: left;
+    margin: 2px 0 2px 25px;
+}
+.footer_R{
+	text-align: center;
+}
+.footer_R p{
+	padding:2px 0;
+}
+.footer_R,.footer_R a{
+	color:#999;
+}
+.footer_R .icon{
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    background: url(../img/icon.png) no-repeat;
+    overflow: hidden;
+}
+.footer_R .icon-last{
+	width: 16px;
+    height: 17px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    background: url(../img/icon.png) no-repeat;
+    overflow: hidden;
+    background-position: -24px 0;
+}
